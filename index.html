@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog Photo App</title>
+</head>
+
+<main>
+
+    <body>
+        <h1>DogPhotoApp</h1>
+
+        <section>
+            <h2>Dog Photos</h2>
+            <p>Click here for more <a href="https://freecatphotoapp.com">dog photos</a></p>
+            <a href="https://freecatphotoapp.com"><img src="img/dog.jpeg" alt="dog-photo" target="_blank"></a>
+        </section>
+
+        <section>
+            <h2>Dog Lists</h2>
+            <h3>Things dogs love:</h3>
+            <ul>
+                <li>Eat</li>
+                <li>Sleep</li>
+                <li>Run around outside</li>
+            </ul>
+            <figure>
+                <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="Lasagna">
+                <figcaption>Dogs do <em>eat</em> lasagna also</figcaption>
+            </figure>
+            <h3>Top 3 things dogs hate:</h3>
+            <ol>
+                <li>Garlic</li>
+                <li>Cats</li>
+                <li>Onions</li>
+            </ol>
+            <figure>
+                <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg"
+                    alt="Five cats looking around a field.">
+                <figcaption>Dogs <strong>hate</strong> cats</figcaption>
+            </figure>
+        </section>
+        <section>
+            <h2>Dog Form</h2>
+            <form action="https://freecatphotoapp.com/submit-cat-photo">
+                <fieldset>
+                    <legend>Is your dog an Indoor or Outdoor dog?</legend>
+                    <input type="radio" name="indoor-outdoor" id="indoor" checked><label for="indoor">Indoor</label>
+                    <input type="radio" name="indoor-outdoor" id="outdoor"><label for="outdoor">Outdoor</label>
+                </fieldset>
+                <fieldset>
+                    <legend>What is your dog's personality?</legend>
+                    <input type="checkbox" id="aggressive" name="personality" value="aggressive" checked><label
+                        for="aggressive">Aggressive</label>
+                    <input type="checkbox" id="lazy" name="personality" value="lazy"><label for="lazy">Lazy</label>
+                    <input type="checkbox" id="playfull" name="personality" value="playfull"><label
+                        for="playfull">Playfull</label>
+                </fieldset>
+                <input type="text" name="cat-photo-url" placeholder="dog photo url" required>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+    </body>
+</main>
+<footer>
+    <p>Copyright &reg; - <a href="https://github.com/MuegheAbuemkeze">MUGi</a></p>
+</footer>
+
+</html>
